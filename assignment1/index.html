@@ -4,29 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assignment1</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-    <div>
-    <h2>
+    <div class="head">
+
+    <h1>
+        <center>
         BOOKSQUARD
-    </h2>
+        </center>
+    </h1>
     <HR>
         <p>"Libraries store the energy that fuels the imagination. They open up windows to the world and inspire us to explore and achieve, and contribute to improving our quality of life."</p>
 </div>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#membership">Membership</a></li>
+      </ul>
+    </nav>
+  
 </header>
 <main>
-    <div>
-    <h3> Welcome ! to the booksquard</h3>
-    <img src="library.jpg" alt="library"> 
+    <div class="set">
+   <center> <h3> Welcome ! to the booksquard</h3></center>
+    <img src="library.jpg" alt="library"  class="align" width="400" height="320"> 
     <br>
-    <p> Want to download online pdf for free!!</p>
+    <p class="pdf"> Want to download online pdf for free!!
     <a href="https://www.pdfdrive.com/">click on the link</a>
+    </p>
     <br>
-    <p> To find the hidden meanings :</p>
+    <br>
+    <p class="word"> To find the hidden meanings :
     <a href="https://www.dictionary.com/">open dictionary</a>
+    </p>
     </div>
-    <div>
+    <div  class="mem">
         <p>
             <br>
             <h3><b>UNLOCK THE DOOR OF KNOWLADGE !!</b></h3>
@@ -38,13 +54,27 @@
         <a href="form.html">fill the form</a>
         
     </div>
-    <div> 
+    <div id="instructions"> 
         <p> Basic instructions :</p>
         <a href="instruction.html">read the instructions</a>
+    </div>
+    <div id="donate">  <h1>Support Our Library</h1>
+        <p>We appreciate your support! Please fill in the details below to donate.</p>
+    
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+    
+            <label for="amount">Donation Amount:</label><br>
+            <input type="number" id="amount" name="amount"><br><br>
+    
+            <input type="submit" value="Donate">
+        </form>
     </div>
     <hr>
 </main>
 <footer>
+    <div class="end">
     <p>
      <h3><b><u>OFFLINE DETAILS:</u></b></h3>
      <br>
@@ -56,6 +86,7 @@
      <br>
      Email- booksquardlibrary@gmail.com
     </p>
+    </div>
 </footer>
 </body>
 </html>
