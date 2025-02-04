@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* nav section */
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #acdccb;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.list ul{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    position: relative;
+    left: 60px;
+}
+.list ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.list ul li a:hover{
+    text-decoration: underline;
+    color: #665c50;
+}
+
+.icons{
+    display: flex;
+    margin-top: 5px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.icons h1{
+    margin-left: 30px;
+    
+}
+
+/* customize section */
+.small{
+    display: flex;
+}
+.ca{
+    margin: 40px;
+    transform: scale(0.9);
+}
+.ca:hover{
+    transform: scale(0.8);
+}
+.cust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.customize{
+        font-size: 40px;
+        cursor: default;
+        color: rgb(44, 28, 28);
+        position: relative;
+        bottom: 10px;
+    }
+    .hr{
+        width: 100px;
+        
+      
+    }
+    .customize_one{
+        font-size: 25px;
+        margin-right: 40px;
+        color: #8e704c;
+        margin-top: 50px;
+    }
+    
+    .oder_btn{
+        height: 50px;
+        width: 170px;
+        border-radius: 10px;
+        border: 2px solid #acdccb;
+        background-color: #c7b299;
+       
+        margin-top: 15px; 
+    }
+    .oder_btn:hover{
+        background-color: #acdccb;
+    }
+
+    .big{
+        display: flex;
+    }
+
+    .ca2{
+        margin: 40px;
+        transform: scale(0.9);
+    }
+    .ca2:hover{
+        transform: scale(0.8);
+    }
+
+    .cust_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cust_big{
+        font-size: 40px;
+        cursor: default;
+        color: rgb(44, 28, 28);
+        position: relative;
+        bottom: 10px;
+        left: 40px;
+    }
+ .hr{
+    width: 100px;
+    position: relative;
+    left: 40px;
+ }
+    .cust_one{
+        font-size: 25px;
+        margin-right: 40px;
+        color: #8e704c;
+        margin-top: 50px;
+        position: relative;
+        left: 40px;
+    }
+
+    /* footer css start */
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #acdccb;
+    color: azure;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .listfoot{
+    list-style-type: none;
+  }
+  .listfoot li{
+    margin-left: 20px;
+  }
+  
+  .footcontact{
+    font-size: 20px;
+  }
+  
+  .footer-company{
+    margin-left: 20px;
+  }
+  .news{
+    margin-right: 10px;
+  }
+  
+  
+  .footimgg{
+    margin-left: 6px;
+    border: 2px solid white;
+  }
