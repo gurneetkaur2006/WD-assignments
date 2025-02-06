@@ -1,0 +1,6 @@
+<script>start("c:\\Users\\gurne\\Downloads\\furniture\\final project\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("images","images",1,0,"0 B",1738843413,"2/6/25, 5:33:33 PM");</script>
+<script>addRow("index.html","index.html",0,9860,"9.6 kB",1738844213,"2/6/25, 5:46:53 PM");</script>
+<script>addRow("main.js","main.js",0,1498,"1.5 kB",1738843412,"2/6/25, 5:33:32 PM");</script>
+<script>addRow("styles.css","styles.css",0,8932,"8.7 kB",1738843412,"2/6/25, 5:33:32 PM");</script>
